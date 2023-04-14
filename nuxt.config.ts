@@ -1,10 +1,4 @@
-export default {
-  nitro: {
-    preset: 'vercel-edge',
-  },
-  publicRuntimeConfig: {
-   
-},
+export default defineNuxtConfig({
   modules: ['@pinia/nuxt'],
   pinia: {
     autoImports: [
@@ -13,4 +7,4 @@ export default {
       ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
     ],
   },
-};
+})
