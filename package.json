@@ -9,5 +9,10 @@
   },
   "devDependencies": {
     "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.8",
+    "@supabase/supabase-js": "^2.20.0",
+    "pinia": "^2.0.34"
   }
 }
